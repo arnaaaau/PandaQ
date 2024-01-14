@@ -5,7 +5,7 @@ Aquest treball consisteix en un intèrpret de sentències SQL anomenat PandaQ pe
 A continuació es mencionaran les eines més importants d'aquest treball.
 
 #### ENTRADA DE DADES ####
-PandaQ treballa amb un subconjunt de consultes SQL. Cal destacar que no estan implementades totes les funcionalitats principals de les consultes.
+PandaQ treballa amb un subconjunt de consultes SQL. Cal destacar que no estan implementades totes les funcionalitats principals de les consultes. Es permet l'entrada de dades via fitxers .txt o escrivint la sentència.  
 
 #### DADES ####
 PandaQ utilitza taules de dades amb extensió .csv. Per al seu bon funcionament, aquestes taules s'han de situar dins la carpeta Dades. Es recomana que, per tenir una experiència satisfactòria, aquestes taules no tinguin columnes amb els mateixos identificadors.
