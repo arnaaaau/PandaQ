@@ -60,8 +60,10 @@ condition        : 'not' '(' condition ')'                  #not_parentesis_wher
 comparison_condition : 'not' column_name '<' NUM            #not_menor
                      | 'not' column_name '=' NUM            #not_igual
                      | 'not' column_name '=' column_name    #not_igual_string
+                     | 'not' column_name '=' 'null'         #not_columna_amb_buits
                      | column_name '<' NUM                  #menor
                      | column_name '=' NUM                  #igual
+                     | column_name '=' 'null'               #columna_amb_buits
                      | column_name '=' column_name          #igual_string
                      ;
 

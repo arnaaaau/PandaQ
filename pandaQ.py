@@ -271,6 +271,16 @@ class EvalVisitor(pandaQVisitor):
         df = self.pd[self.i]
         return (df[columna.getText()] == numero)
 
+    def visitColumna_amb_buits(self, ctx):
+        [columna, _, _] = list(ctx.getChildren())
+        df = self.pd[self.i]
+        return (df[columna.getText()].isnull())
+
+    def visitNot_columna_amb_buits(self, ctx):
+        [_,columna, _, _] = list(ctx.getChildren())
+        df = self.pd[self.i]
+        return (df[columna.getText()].notnull())
+
     # Método para visitar el nodo Igual_string
     def visitIgual_string(self, ctx):
         [columna, _, string] = list(ctx.getChildren())
@@ -390,7 +400,7 @@ def analizar_codigo(codigo):
 
 
 def main():
-    st.title("Compilador SQL")
+    st.title("PANDAQ")
     # Interfaz para cargar archivos de extension .csv
     uploaded_file = st.file_uploader("Cargar archivo de consultas SQL", type=["txt"])
 

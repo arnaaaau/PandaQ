@@ -46,6 +46,3 @@ IMPORTANT! Per fer ús de PandaQ cal tenir instal·lat en el vostre dispositiu:
 
 ## CONTACTE
 - Correu electrònic: arnau.ferron@estudiantat.upc.edu
-
-## CONTACTE
-- Correo electrónico: arnau.ferron@estudiantat.upc.edu
