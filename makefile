@@ -1,7 +1,7 @@
 all:	gramatica test
 
-gramatica:	exprs.g4
-	antlr4 -Dlanguage=Python3 -no-listener -visitor exprs.g4
+gramatica:	pandaQ.g4
+	antlr4 -Dlanguage=Python3 -no-listener -visitor pandaQ.g4
 
 test:	gramatica
-	streamlit run exprs.py
+	streamlit run pandaQ.py
