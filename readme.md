@@ -39,7 +39,7 @@ IMPORTANT! Per fer ús de PandaQ cal tenir instal·lat en el vostre dispositiu:
   - Streamlit
   - Antlr4
 
-## LINKS D'INTERES 
+## LINKS D'INTERÉS 
   - Sentències que permet PandaQ: https://github.com/gebakx/lp-pandaQ-23/blob/main/readme.md?plain=1
   - Instal·lació de Python: https://www.python.org/downloads/
   - Instal·lació de Antlr4: https://gebakx.github.io/Python3/compiladors.html#2
