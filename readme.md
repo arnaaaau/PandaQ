@@ -1,3 +1,4 @@
+ ![imatge](https://www.upc.edu/++theme++homeupc/assets/images/Logo.svg)
 # PANDAQ #
 Aquest treball consisteix en un intèrpret de sentències SQL anomenat PandaQ per a l'assignatura de llenguatge de programació de la Universitat Politècnica de Catalunya.
 
@@ -42,4 +43,6 @@ IMPORTANT! Per fer ús de pandaQ cal tenir instal·lat en el vostre dispositiu:
   - Sentències que permet pandaQ: https://github.com/gebakx/lp-pandaQ-23/blob/main/readme.md?plain=1
   - Instal·lació de Python: https://www.python.org/downloads/
   - Instal·lació de Antlr4: https://gebakx.github.io/Python3/compiladors.html#2
- 
+
+## Contacte
+- Correo electrónico: arnau.ferron@estudiantat.upc.edu
