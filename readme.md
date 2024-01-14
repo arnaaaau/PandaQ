@@ -31,7 +31,7 @@ Tot i això, per més comoditat per l'usuari, es proporciona un Makefile que per
 $ make -f makefile
 ```
 ## TESTS ## 
-Dins aquest directorio es troben alguns exemples de sentències posibles que permet pandaQ.
+Dins aquest directori es troben alguns exemples de sentències posibles que permet pandaQ.
 ## Requeriments ##
 IMPORTANT! Per fer ús de pandaQ cal tenir instal·lat en el vostre dispositiu:
   - Python3.17 o posterior
