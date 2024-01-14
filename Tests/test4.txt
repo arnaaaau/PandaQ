@@ -1,0 +1,2 @@
+select * from countries where not region_id = 1 and not region_id = 3 order by region_id;
+
