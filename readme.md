@@ -1,6 +1,6 @@
 ![imatge](https://www.upc.edu/++theme++homeupc/assets/images/Logo.svg)
 # PANDAQ #
-Aquest treball consisteix en un intèrpret de sentències SQL anomenat PandaQ per a l'assignatura de llenguatge de programació de la Universitat Politècnica de Catalunya.
+Aquest treball consisteix en un intèrpret de sentències SQL anomenat PandaQ per a l'assignatura de llenguatge de programació de la Universitat Politècnica de Catalunya. La nota del treball va ser d'un 10.
 
 ## CARACTERÍSTIQUES PRINCIPALS:
 A continuació es mencionaran les eines més importants d'aquest treball.
